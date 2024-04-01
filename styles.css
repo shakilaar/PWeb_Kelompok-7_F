@@ -3,10 +3,6 @@
     src: url(Assets/Fonts/BloodMoon-Regular.ttf);
 }
 
-@font-face {
-    font-family: "MyFontt";
-    src: url(Assets/Fonts/BloodMoon-Regular.ttf);
-}
 
 * {
   box-sizing: border-box;
@@ -14,7 +10,7 @@
 
 html {
   min-height: 100vh;
-  font-family: MyFontt;
+  font-family: MyFont;
 }
 
 body {
