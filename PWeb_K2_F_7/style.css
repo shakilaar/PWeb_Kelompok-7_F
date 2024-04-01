@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,7 +26,7 @@ html{
     background: #555;
 }
 
-/* all similar content styling codes */
+/* content styling */
 section{
     padding: 100px 0;
 }
@@ -159,7 +159,7 @@ section .title::after{
     filter: brightness(90%);
 }
 
-/* services section styling */
+/* services styling */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -175,7 +175,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* home styling */
 .home{
     display: flex;
     background: url("assets/background.png") no-repeat center;
@@ -226,7 +226,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* about styling */
 .about .title::after{
     content: "Siapakah Kita?";
 }
@@ -270,7 +270,7 @@ section .title::after{
     background: none;
 }
 
-/* teams section styling */
+/* teams styling */
 .teams .title::after{
     content: "Anggota";
 }
@@ -308,7 +308,8 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
-/* contact section styling */
+
+/* contact styling */
 .contact .title::after{
     content: "Informasi Kontak";
 }
@@ -403,7 +404,7 @@ section .title::after{
   color: crimson;
   background: none;
 }
-/* footer section styling */
+/* footer styling */
 footer{
     background: #111;
     padding: 15px 23px;
@@ -419,7 +420,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+/* responsive */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
